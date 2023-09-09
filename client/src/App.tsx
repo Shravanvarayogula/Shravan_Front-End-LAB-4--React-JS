@@ -1,5 +1,5 @@
 import React from 'react';
-import {ExpenseTracker} from './components/Expense-Tracker';
+import {ExpenseTracker} from './components/Expense-tracker';
 
 function App() {
   return (

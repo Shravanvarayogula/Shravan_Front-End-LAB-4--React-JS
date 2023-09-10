@@ -90,6 +90,34 @@
       "price": 1000,
       "date": "2022-04-05",
       "id": 13
+    },
+    {
+      "expenseDescription": "TRIP",
+      "payeeName": "Ramesh",
+      "price": 20000,
+      "date": "2023-09-10T19:57:33.175Z",
+      "id": 14
+    },
+    {
+      "expenseDescription": "TRIP",
+      "payeeName": "Rahul",
+      "price": 10,
+      "date": "2023-09-10T20:16:00.164Z",
+      "id": 15
+    },
+    {
+      "expenseDescription": "TEST",
+      "payeeName": "Ramesh",
+      "price": 10,
+      "date": "2023-09-10T20:20:08.765Z",
+      "id": 16
+    },
+    {
+      "expenseDescription": "TRIP",
+      "payeeName": "Ramesh",
+      "price": 1,
+      "date": "2023-09-10T20:22:04.275Z",
+      "id": 17
     }
   ]
 }

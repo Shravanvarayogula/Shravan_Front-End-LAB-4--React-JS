@@ -13,7 +13,6 @@ type ExpenseItemModel = {
 const ExpenseItems = ( {expenseItems} : ExpenseItemModel) => {
     return(
     <>
-    <h2 className="heading"> Expense Management Application </h2>
     <Table striped bordered hover>
       <thead>
         <tr>

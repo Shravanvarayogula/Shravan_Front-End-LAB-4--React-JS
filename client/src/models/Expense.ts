@@ -3,7 +3,7 @@ interface IExpenseItem {
     payeeName : string,
     expenseDescription: string,
     price: number,
-    setDate: Date,
+    date: Date,
     id: number
 }
 

@@ -14,6 +14,7 @@ const getAllExpenseItems = async () => {
 
 // Input parameters payeename, price, description 
 const saveExpenseItem = async (expenseCreateItem : IExpenseCreateItem) => {
+    //Type should be Iexpense Item because when the saved object is returned it has an ID as well as per IExpenseItem type
     const responseData = await axios.post<IExpenseItem>(
         baseAPIUrl, 
         expenseCreateItem,

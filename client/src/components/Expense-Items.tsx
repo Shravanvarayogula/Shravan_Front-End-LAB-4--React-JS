@@ -30,7 +30,7 @@ const ExpenseItems = ( {expenseItems} : ExpenseItemModel) => {
                 <td> {index+1} </td>
                 <td> {expenseItem.expenseDescription} </td>
                 <td> {expenseItem.payeeName} </td>
-                <td> {expenseItem.date.toString()} </td>
+                <td> {expenseItem.date} </td>
                 <td> {expenseItem.price} </td>
             </tr>
              ))

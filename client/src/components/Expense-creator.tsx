@@ -3,6 +3,7 @@ import { FormEvent, useRef, useState } from "react";
 import { getAllPayeeNames } from "../services/expense-utils";
 import IExpenseItem, { IExpenseCreateItem } from "../models/Expense"; 
 import { saveExpenseItem } from "../services/expense";
+import moment from "moment";
 
 
 type ExpenseCreatorModel = {
@@ -33,7 +34,7 @@ const ExpenseCreator = ({expenseItems,refreshParent} :ExpenseCreatorModel ) => {
             expenseDescription : expenseDescRef?.current?.value as string,
             payeeName : payeeRef?.current?.value as string,
             price : parseFloat(priceRef?.current?.value as string),
-            date : new Date()
+            date : moment(new Date()).format('YYYY-MM-DD')
         }
        const updatedExpenseItem = await saveExpenseItem(newExpenseItem)
        console.log(updatedExpenseItem);
